@@ -1,3 +1,31 @@
 theme: jekyll-theme-architect
 title: Jen's Blog
 #description: [A short description of your site's purpose]
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          Jinyoung Yang
+baseurl:        ""
+url:            "https://jenyang2.github.io/blog"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         Jinyoung Yang
+  url:          https://jenyang2.github.io/blog
+  email:        jen.dev08@gmail.com  
+  github:       jenyang2
+
+# Custom vars
+version:        1.0.0
+github:
+  repo:         https://jenyang2.github.io/blog
